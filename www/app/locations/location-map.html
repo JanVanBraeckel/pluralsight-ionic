@@ -1,0 +1,8 @@
+<ion-view title="Location Map">
+    <ion-content class="has-header">
+        <ui-gmap-google-map draggable="true" center="vm.map.center" zoom="vm.map.zoom">
+            <ui-gmap-marker idKey="vm.marker.idKey" options="vm.marker.label" coords="vm.marker.coords" click="vm.locationClicked(vm.marker)">
+            </ui-gmap-marker>
+        </ui-gmap-google-map>
+    </ion-content>
+</ion-view>
